@@ -1,9 +1,9 @@
 const {
-  tokenizer,
-  parser,
-  transformer,
-  codeGenerator,
-  compiler,
+  tokenizer,//分词
+  parser,//解析
+  transformer,//转译
+  codeGenerator,//代码生成
+  compiler,//编译器，整体
 } = require('./the-super-tiny-compiler');
 const assert = require('assert');
 
